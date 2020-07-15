@@ -15,7 +15,6 @@
     "require": {
         "php": "^7.1",
         "guzzlehttp/guzzle": "^6.0",
-        "symfony/serializer": "^4.2",
         "illuminate/support": "^5.3"
     },
     "require-dev": {
@@ -25,11 +24,6 @@
     "autoload": {
         "psr-0": {
             "Adrenth\\Thetvdb\\": "lib/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0-dev"
         }
     }
 }
